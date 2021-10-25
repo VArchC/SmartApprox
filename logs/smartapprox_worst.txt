@@ -1,0 +1,1422 @@
+-----------------> SmartApprox <---------------------------
+Results built upon axram
+Error Scenario:worst
+
+
+-----------------> TRAINING PHASE <---------------------------
+knowledge base for quality requirement 0.9
+	2mm
+		 vdd: 1.09
+		 quality: 0.9870022737245203
+		 qualities> 0.00, 0.00, 0.00, 0.01, 0.10, 0.30, 0.75, 0.99, 0.99, 1.00, 
+		 energies> 0.56, 0.57, 0.59, 0.29, 0.21, 0.33, 0.58, 0.73, 0.74, 0.75, 
+	atax
+		 vdd: 1.10
+		 quality: 0.98
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.27, 0.79, 0.98, 1.00, 
+		 energies> 0.43, 0.43, 0.43, 0.38, 0.65, 0.99, 1.00, 0.79, 0.75, 0.76, 
+	blackscholes
+		 vdd: 1.10
+		 quality: 0.9615398673060293
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.42, 0.82, 0.96, 0.99, 
+		 energies> 0.44, 0.45, 0.47, 0.21, 0.13, 0.07, 0.46, 0.66, 0.72, 0.73, 
+	bunzip2
+		 vdd: 1.35
+		 quality: 1.0
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.33, 0.87, 
+		 energies> 0.40, 0.41, 0.43, 0.23, 0.10, 0.07, 0.20, 0.51, 0.70, 0.78, 
+	bzip2
+		 vdd: 1.35
+		 quality: 1.0
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.04, 0.51, 
+		 energies> 0.31, 0.31, 0.30, 0.15, 0.13, 0.08, 0.08, 0.18, 0.52, 0.75, 
+	correlation
+		 vdd: 1.11
+		 quality: 1.0
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.07, 0.56, 0.90, 0.99, 0.99, 1.00, 
+		 energies> 0.82, 0.83, 0.76, 0.68, 1.11, 1.14, 0.79, 0.74, 0.74, 0.74, 
+	covariance
+		 vdd: 1.10
+		 quality: 0.999298245614035
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.16, 0.61, 0.92, 1.00, 1.00, 
+		 energies> 0.40, 0.41, 0.36, 0.30, 0.48, 0.64, 0.78, 0.76, 0.76, 0.76, 
+	dijkstra
+		 vdd: 1.10
+		 quality: 0.91
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.01, 0.48, 0.91, 0.99, 
+		 energies> 0.74, 0.75, 0.73, 0.31, 0.12, 0.10, 0.16, 0.41, 0.55, 0.57, 
+	fannkuch-redux
+		 vdd: 1.07
+		 quality: 0.96
+		 qualities> 0.00, 0.00, 0.00, 0.38, 0.82, 0.96, 0.99, 0.99, 1.00, 1.00, 
+		 energies> 0.94, 0.94, 0.96, 0.72, 0.74, 0.76, 0.78, 0.78, 0.79, 0.80, 
+	fasta
+		 vdd: 1.07
+		 quality: 0.9007062976705871
+		 qualities> 0.00, 0.00, 0.00, 0.04, 0.58, 0.90, 0.97, 1.00, 1.00, 1.00, 
+		 energies> 0.75, 0.75, 0.77, 0.35, 0.61, 0.62, 0.63, 0.63, 0.64, 0.65, 
+	fft
+		 vdd: 1.09
+		 quality: 0.96
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.01, 0.08, 0.67, 0.96, 0.99, 1.00, 
+		 energies> 0.50, 0.50, 0.45, 0.32, 0.31, 0.40, 0.62, 0.71, 0.73, 0.75, 
+	floyd-warshall
+		 vdd: 1.09
+		 quality: 0.9565548945330642
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.02, 0.29, 0.84, 0.96, 1.00, 1.00, 
+		 energies> 0.51, 0.52, 0.52, 0.37, 0.29, 0.41, 0.59, 0.70, 0.74, 0.75, 
+	inversek2j
+		 vdd: 1.10
+		 quality: 0.9721414978386501
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.02, 0.25, 0.76, 0.97, 1.00, 
+		 energies> 0.44, 0.44, 0.46, 0.24, 0.09, 0.10, 0.29, 0.64, 0.72, 0.74, 
+	jacobi-2d-imper
+		 vdd: 1.10
+		 quality: 0.999298245614035
+		 qualities> 0.00, 0.00, 0.00, 0.01, 0.06, 0.38, 0.85, 0.97, 1.00, 1.00, 
+		 energies> 0.60, 0.60, 0.60, 0.42, 0.91, 1.12, 0.80, 0.74, 0.72, 0.73, 
+	jmeint
+		 vdd: 1.10
+		 quality: 0.9352452452452602
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.03, 0.14, 0.29, 0.76, 0.94, 1.00, 
+		 energies> 0.78, 0.79, 0.83, 0.32, 0.26, 0.21, 0.38, 0.66, 0.74, 0.77, 
+	jpeg
+		 vdd: 1.11
+		 quality: 0.9997771226863946
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.03, 0.50, 0.90, 1.00, 
+		 energies> 0.75, 0.76, 0.71, 0.49, 0.44, 0.48, 0.70, 0.75, 0.79, 0.78, 
+	k-nucleotide
+		 vdd: 1.10
+		 quality: 0.940873698476811
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.35, 0.81, 0.94, 0.98, 
+		 energies> 0.16, 0.17, 0.17, 0.11, 0.08, 0.22, 0.64, 0.75, 0.80, 0.82, 
+	mandelbrot
+		 vdd: 1.07
+		 quality: 0.9722131728198474
+		 qualities> 0.00, 0.00, 0.00, 0.13, 0.74, 0.97, 0.99, 1.00, 1.00, 1.00, 
+		 energies> 0.64, 0.64, 0.58, 0.60, 0.65, 0.65, 0.65, 0.66, 0.67, 0.67, 
+	mm
+		 vdd: 1.10
+		 quality: 0.9866760569402068
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.02, 0.48, 0.89, 0.99, 1.00, 
+		 energies> 0.89, 0.90, 0.88, 0.45, 0.59, 0.62, 0.60, 0.63, 0.66, 0.66, 
+	nbody
+		 vdd: 1.08
+		 quality: 0.9887114349024858
+		 qualities> 0.00, 0.00, 0.00, 0.23, 0.50, 0.86, 0.99, 0.99, 0.99, 1.00, 
+		 energies> 1.11, 1.12, 1.15, 0.72, 0.79, 0.80, 0.79, 0.79, 0.80, 0.81, 
+	pi
+		 vdd: 1.08
+		 quality: 1.0
+		 qualities> 0.00, 0.00, 0.00, 0.17, 0.74, 0.96, 1.00, 1.00, 1.00, 1.00, 
+		 energies> 0.95, 0.96, 0.99, 0.78, 0.80, 0.79, 0.78, 0.78, 0.79, 0.80, 
+	qsort
+		 vdd: 1.10
+		 quality: 0.999611304825657
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.02, 0.44, 0.86, 0.98, 1.00, 1.00, 
+		 energies> 0.86, 0.87, 0.86, 0.38, 0.60, 0.61, 0.59, 0.61, 0.60, 0.61, 
+	reg_detect
+		 vdd: 1.09
+		 quality: 0.9642460073260074
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.02, 0.58, 0.85, 0.96, 1.00, 1.00, 
+		 energies> 0.64, 0.65, 0.64, 0.56, 0.69, 0.78, 0.79, 0.80, 0.80, 0.81, 
+	reverse-complement
+		 vdd: 1.09
+		 quality: 0.92957903146272
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.04, 0.28, 0.72, 0.93, 0.99, 1.00, 
+		 energies> 0.85, 0.86, 0.88, 0.64, 0.67, 0.64, 0.71, 0.75, 0.78, 0.79, 
+	sobel
+		 vdd: 1.10
+		 quality: 0.9403980643134298
+		 qualities> 0.00, 0.00, 0.00, 0.00, 0.00, 0.09, 0.39, 0.77, 0.94, 0.99, 
+		 energies> 0.24, 0.24, 0.25, 0.15, 0.15, 0.36, 0.64, 0.76, 0.80, 0.81, 
+	spectralnorm
+		 vdd: 1.06
+		 quality: 0.9
+		 qualities> 0.00, 0.00, 0.00, 0.32, 0.90, 0.98, 1.00, 1.00, 1.00, 1.00, 
+		 energies> 0.68, 0.69, 0.65, 0.63, 0.72, 0.76, 0.75, 0.76, 0.77, 0.78, 
+
+
+-----------------> RUNTIME EVALUATION <---------------------------
+2mm
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9909302325581396
+	oracle>> vdd: 1.09
+		 quality: 0.9870022737245203
+atax
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> CE
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.98
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+	oracle>> vdd: 1.10
+		 quality: 0.98
+blackscholes
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 0.99
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9615398673060293
+	oracle>> vdd: 1.10
+		 quality: 0.9615398673060293
+bunzip2
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.33106654441282585
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 0.87
+		 features_list> GA-median
+		 similar:  - vdd: 1.11
+		 quality: 0.87
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 0.87
+	oracle>> vdd: 1.35
+		 quality: 1.0
+bzip2
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> CE
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.040426897629979947
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.040426897629979947
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.040426897629979947
+		 features_list> MCC
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> MEB
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.040426897629979947
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> GA-median
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 0.5102618929651709
+	oracle>> vdd: 1.35
+		 quality: 1.0
+correlation
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9904436701509871
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+	oracle>> vdd: 1.11
+		 quality: 1.0
+covariance
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MEB
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> GA-median
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+	oracle>> vdd: 1.10
+		 quality: 0.999298245614035
+dijkstra
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.09
+		 quality: 0.483
+		 features_list> CE
+		 similar:  - vdd: 1.11
+		 quality: 0.99
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.91
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 0.99
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 0.99
+		 features_list> MCC
+		 similar:  - vdd: 1.08
+		 quality: 0.01
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.91
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.91
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 0.99
+		 features_list> GA-median
+		 similar:  - vdd: 1.09
+		 quality: 0.483
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.91
+	oracle>> vdd: 1.10
+		 quality: 0.91
+fannkuch-redux
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> CE
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> DS
+		 similar:  - vdd: 1.09
+		 quality: 0.99
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> MCC
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> MEB
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> GA-median
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+		 features_list> GA-worst
+		 similar:  - vdd: 1.08
+		 quality: 0.99
+	oracle>> vdd: 1.07
+		 quality: 0.96
+fasta
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.07
+		 quality: 0.9007062976705871
+		 features_list> CE
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.07
+		 quality: 0.9007062976705871
+		 features_list> MEB
+		 similar:  - vdd: 1.09
+		 quality: 0.9999997199999998
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.09
+		 quality: 0.9999997199999998
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+	oracle>> vdd: 1.07
+		 quality: 0.9007062976705871
+fft
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.99
+	oracle>> vdd: 1.09
+		 quality: 0.96
+floyd-warshall
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9951530612244898
+	oracle>> vdd: 1.09
+		 quality: 0.9565548945330642
+inversek2j
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 0.99932
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> MCC
+		 similar:  - vdd: 1.11
+		 quality: 0.99932
+		 features_list> MEB
+		 similar:  - vdd: 1.11
+		 quality: 0.99932
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 0.99932
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9721414978386501
+	oracle>> vdd: 1.10
+		 quality: 0.9721414978386501
+jacobi-2d-imper
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.999298245614035
+	oracle>> vdd: 1.10
+		 quality: 0.999298245614035
+jmeint
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+		 features_list> CE
+		 similar:  - vdd: 1.09
+		 quality: 0.75638638638642
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 0.9974974974975
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+		 features_list> MCC
+		 similar:  - vdd: 1.11
+		 quality: 0.9974974974975
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+		 features_list> MI
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.09
+		 quality: 0.75638638638642
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9352452452452602
+	oracle>> vdd: 1.10
+		 quality: 0.9352452452452602
+jpeg
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9017281606134621
+		 features_list> CE
+		 similar:  - vdd: 1.09
+		 quality: 0.5013101416823942
+		 features_list> DS
+		 similar:  - vdd: 1.11
+		 quality: 0.9997771226863946
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 0.9997771226863946
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 0.9997771226863946
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9017281606134621
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9017281606134621
+		 features_list> MI
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.09
+		 quality: 0.5013101416823942
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9017281606134621
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9017281606134621
+	oracle>> vdd: 1.11
+		 quality: 0.9997771226863946
+k-nucleotide
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> CE
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MEB
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.940873698476811
+		 features_list> GA-best
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-worst
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+	oracle>> vdd: 1.10
+		 quality: 0.940873698476811
+mandelbrot
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.07
+		 quality: 0.9722131728198474
+		 features_list> CE
+		 similar:  - vdd: 1.09
+		 quality: 0.9999786201447206
+		 features_list> DS
+		 similar:  - vdd: 1.08
+		 quality: 0.9899462082256487
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.08
+		 quality: 0.9899462082256487
+		 features_list> MCC
+		 similar:  - vdd: 1.09
+		 quality: 0.9999786201447206
+		 features_list> MEB
+		 similar:  - vdd: 1.09
+		 quality: 0.9999786201447206
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.08
+		 quality: 0.9899462082256487
+		 features_list> GA-worst
+		 similar:  - vdd: 1.08
+		 quality: 0.9899462082256487
+	oracle>> vdd: 1.07
+		 quality: 0.9722131728198474
+mm
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.9866760569402068
+	oracle>> vdd: 1.10
+		 quality: 0.9866760569402068
+nbody
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.08
+		 quality: 0.9887114349024858
+		 features_list> CE
+		 similar:  - vdd: 1.08
+		 quality: 0.9887114349024858
+		 features_list> DS
+		 similar:  - vdd: 1.09
+		 quality: 0.9939983119455996
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.08
+		 quality: 0.9887114349024858
+		 features_list> MCC
+		 similar:  - vdd: 1.07
+		 quality: 0.8558612264988936
+		 features_list> MEB
+		 similar:  - vdd: 1.07
+		 quality: 0.8558612264988936
+		 features_list> MI
+		 similar:  - vdd: 1.09
+		 quality: 0.9939983119455996
+		 features_list> GA-best
+		 similar:  - vdd: 1.07
+		 quality: 0.8558612264988936
+		 features_list> GA-median
+		 similar:  - vdd: 1.08
+		 quality: 0.9887114349024858
+		 features_list> GA-worst
+		 similar:  - vdd: 1.08
+		 quality: 0.9887114349024858
+	oracle>> vdd: 1.08
+		 quality: 0.9887114349024858
+pi
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> CE
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.07
+		 quality: 0.96
+		 features_list> MEB
+		 similar:  - vdd: 1.07
+		 quality: 0.96
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.07
+		 quality: 0.96
+		 features_list> GA-median
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> GA-worst
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+	oracle>> vdd: 1.08
+		 quality: 1.0
+qsort
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> CE
+		 similar:  - vdd: 1.11
+		 quality: 0.9996613048256568
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 0.9996613048256568
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> MI
+		 similar:  - vdd: 1.11
+		 quality: 0.9996613048256568
+		 features_list> GA-best
+		 similar:  - vdd: 1.11
+		 quality: 0.9996613048256568
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 0.999611304825657
+	oracle>> vdd: 1.10
+		 quality: 0.999611304825657
+reg_detect
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> CE
+		 similar:  - vdd: 1.08
+		 quality: 0.8509690888278388
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.11
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MI
+		 similar:  - vdd: 1.09
+		 quality: 0.9642460073260074
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+	oracle>> vdd: 1.09
+		 quality: 0.9642460073260074
+reverse-complement
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> CE
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> DS
+		 similar:  - vdd: 1.09
+		 quality: 0.92957903146272
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> MA
+		 similar:  - vdd: 1.09
+		 quality: 0.92957903146272
+		 features_list> MCC
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> MEB
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> GA-best
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> GA-median
+		 similar:  - vdd: 1.10
+		 quality: 0.99111993775881
+		 features_list> GA-worst
+		 similar:  - vdd: 1.09
+		 quality: 0.92957903146272
+	oracle>> vdd: 1.09
+		 quality: 0.92957903146272
+sobel
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.11
+		 quality: 0.9946688023128442
+		 features_list> CE
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.10
+		 quality: 0.9403980643134298
+		 features_list> MA
+		 similar:  - vdd: 1.11
+		 quality: 0.9946688023128442
+		 features_list> MCC
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MEB
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> MI
+		 similar:  - vdd: 1.10
+		 quality: 0.9403980643134298
+		 features_list> GA-best
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.35
+		 quality: 1.0
+		 features_list> GA-worst
+		 similar:  - vdd: 1.11
+		 quality: 0.9946688023128442
+	oracle>> vdd: 1.10
+		 quality: 0.9403980643134298
+spectralnorm
+	RF-mr
+		 features_list> AMA
+		 similar:  - vdd: 1.07
+		 quality: 0.98
+		 features_list> CE
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> DS
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> EI
+		 similar:  - vdd: 1.09
+		 quality: 1.0
+		 features_list> MA
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+		 features_list> MCC
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> MEB
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> MI
+		 similar:  - vdd: 1.09
+		 quality: 1.0
+		 features_list> GA-best
+		 similar:  - vdd: 1.08
+		 quality: 1.0
+		 features_list> GA-median
+		 similar:  - vdd: 1.07
+		 quality: 0.98
+		 features_list> GA-worst
+		 similar:  - vdd: 1.10
+		 quality: 1.0
+	oracle>> vdd: 1.06
+		 quality: 0.9
+
+
+-----------------> CALCULATING SCORES <---------------------------
+--SCORE FOR LEARNING MODELS--
+RF-mr: 0.9121344975255401
+
+--SCORE FOR FEATURE SETS--
+AMA: 0.9164938985400047
+CE: 0.8967353865376453
+DS: 0.9099658759103748
+EI: 0.8972433000793143
+MA: 0.9172350446658992
+MCC: 0.8785468537814997
+MEB: 0.9171615240001902
+MI: 0.902691655558686
+GA-best: 0.9132435401473362
+GA-median: 0.9289462420312549
+GA-worst: 0.9552161515287351
+
+app,features_set,Q_{score},E_{score},Score
+2mm|AMA|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|CE|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|DS|1.0|0.7493362275203053|0.9729127251927995
+2mm|EI|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|GA-best|1.0|0.7493362275203053|0.9729127251927995
+2mm|GA-median|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|GA-worst|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|MA|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|MCC|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|MEB|0.9909302325581396|0.7355901350530056|0.9910937034928267
+2mm|MI|0.9909302325581396|0.7355901350530056|0.9910937034928267
+atax|AMA|0.98|0.752996556378844|1.0
+atax|CE|1.0|0.7597506093630441|0.9911101710206426
+atax|DS|1.0|0.7597506093630441|0.9911101710206426
+atax|EI|0.98|0.752996556378844|1.0
+atax|GA-best|1.0|0.7597506093630441|0.9911101710206426
+atax|GA-median|0.98|0.752996556378844|1.0
+atax|GA-worst|1.0|0.7597506093630441|0.9911101710206426
+atax|MA|1.0|0.7597506093630441|0.9911101710206426
+atax|MCC|0.98|0.752996556378844|1.0
+atax|MEB|0.98|0.752996556378844|1.0
+atax|MI|0.98|0.752996556378844|1.0
+blackscholes|AMA|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|CE|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|DS|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|EI|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|GA-best|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|GA-median|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|GA-worst|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|MA|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|MCC|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|MEB|0.9615398673060293|0.7245394494897508|1.0
+blackscholes|MI|0.99|0.7345964477447207|0.9863094923942992
+bunzip2|AMA|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|CE|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|DS|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|EI|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|GA-best|0.87|0.7797115031942111|0.87
+bunzip2|GA-median|0.87|0.7797115031942111|0.87
+bunzip2|GA-worst|0.87|0.7797115031942111|0.87
+bunzip2|MA|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|MCC|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|MEB|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bunzip2|MI|0.33106654441282585|0.7039090674015128|0.33106654441282585
+bzip2|AMA|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|CE|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|DS|0.040426897629979947|0.5244042796351658|0.040426897629979947
+bzip2|EI|0.040426897629979947|0.5244042796351658|0.040426897629979947
+bzip2|GA-best|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|GA-median|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|GA-worst|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|MA|0.040426897629979947|0.5244042796351658|0.040426897629979947
+bzip2|MCC|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|MEB|0.5102618929651709|0.7485896239478934|0.5102618929651709
+bzip2|MI|0.040426897629979947|0.5244042796351658|0.040426897629979947
+correlation|AMA|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|CE|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|DS|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|EI|1.0|0.7362394309132818|1.0
+correlation|GA-best|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|GA-median|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|GA-worst|1.0|0.7362394309132818|1.0
+correlation|MA|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|MCC|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|MEB|0.9904436701509871|0.7376858347385469|0.9885016760855545
+correlation|MI|0.9904436701509871|0.7376858347385469|0.9885016760855545
+covariance|AMA|0.999298245614035|0.7553319192189107|1.0
+covariance|CE|0.999298245614035|0.7553319192189107|1.0
+covariance|DS|1.0|0.7621825486622456|0.9910118259000305
+covariance|EI|0.999298245614035|0.7553319192189107|1.0
+covariance|GA-best|0.999298245614035|0.7553319192189107|1.0
+covariance|GA-median|1.0|0.7621825486622456|0.9910118259000305
+covariance|GA-worst|1.0|0.7621825486622456|0.9910118259000305
+covariance|MA|1.0|0.7621825486622456|0.9910118259000305
+covariance|MCC|0.999298245614035|0.7553319192189107|1.0
+covariance|MEB|1.0|0.7621825486622456|0.9910118259000305
+covariance|MI|0.999298245614035|0.7553319192189107|1.0
+dijkstra|AMA|0.483|0.40858368037092513|0.5307692307692308
+dijkstra|CE|0.99|0.5739180155296308|0.9539844229687936
+dijkstra|DS|0.91|0.54750884687643|1.0
+dijkstra|EI|0.99|0.5739180155296308|0.9539844229687936
+dijkstra|GA-best|0.99|0.5739180155296308|0.9539844229687936
+dijkstra|GA-median|0.483|0.40858368037092513|0.5307692307692308
+dijkstra|GA-worst|0.91|0.54750884687643|1.0
+dijkstra|MA|0.99|0.5739180155296308|0.9539844229687936
+dijkstra|MCC|0.01|0.15785136037600717|0.010989010989010988
+dijkstra|MEB|0.91|0.54750884687643|1.0
+dijkstra|MI|0.91|0.54750884687643|1.0
+fannkuch-redux|AMA|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|CE|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|DS|0.99|0.7846435922388056|0.9723828231831985
+fannkuch-redux|EI|1.0|0.7990442733968193|0.9548581684595467
+fannkuch-redux|GA-best|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|GA-median|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|GA-worst|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|MA|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|MCC|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|MEB|0.99|0.7774450271725166|0.981386367842148
+fannkuch-redux|MI|1.0|0.7990442733968193|0.9548581684595467
+fasta|AMA|0.9007062976705871|0.6245848563026826|1.0
+fasta|CE|1.0|0.6450759745334519|0.968234566098064
+fasta|DS|1.0|0.6450759745334519|0.968234566098064
+fasta|EI|1.0|1.0|0.6245848563026826
+fasta|GA-best|1.0|0.639264479267702|0.9770366985166524
+fasta|GA-median|0.9999997199999998|0.6334459674621424|0.9860112596580869
+fasta|GA-worst|1.0|0.639264479267702|0.9770366985166524
+fasta|MA|1.0|0.639264479267702|0.9770366985166524
+fasta|MCC|0.9007062976705871|0.6245848563026826|1.0
+fasta|MEB|0.9999997199999998|0.6334459674621424|0.9860112596580869
+fasta|MI|1.0|0.6450759745334519|0.968234566098064
+fft|AMA|0.99|0.7343396582880506|0.973139278598217
+fft|CE|0.99|0.7343396582880506|0.973139278598217
+fft|DS|1.0|0.7473272790500974|0.9562273254909383
+fft|EI|0.99|0.7343396582880506|0.973139278598217
+fft|GA-best|0.99|0.7343396582880506|0.973139278598217
+fft|GA-median|0.99|0.7343396582880506|0.973139278598217
+fft|GA-worst|0.99|0.7343396582880506|0.973139278598217
+fft|MA|1.0|0.7473272790500974|0.9562273254909383
+fft|MCC|0.99|0.7343396582880506|0.973139278598217
+fft|MEB|0.99|0.7343396582880506|0.973139278598217
+fft|MI|1.0|0.7473272790500974|0.9562273254909383
+floyd-warshall|AMA|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|CE|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|DS|1.0|0.7476205415014306|0.9350183718892708
+floyd-warshall|EI|1.0|0.7476205415014306|0.9350183718892708
+floyd-warshall|GA-best|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|GA-median|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|GA-worst|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|MA|1.0|0.7476205415014306|0.9350183718892708
+floyd-warshall|MCC|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|MEB|0.9951530612244898|0.7369532636868414|0.9485526097116114
+floyd-warshall|MI|1.0|0.7476205415014306|0.9350183718892708
+inversek2j|AMA|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|CE|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|DS|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|EI|0.99932|0.7384579773886544|0.9692909504725679
+inversek2j|GA-best|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|GA-median|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|GA-worst|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|MA|0.9721414978386501|0.7157806347870989|1.0
+inversek2j|MCC|0.99932|0.7384579773886544|0.9692909504725679
+inversek2j|MEB|0.99932|0.7384579773886544|0.9692909504725679
+inversek2j|MI|0.99932|0.7384579773886544|0.9692909504725679
+jacobi-2d-imper|AMA|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|CE|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|DS|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|EI|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|GA-best|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|GA-median|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|GA-worst|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|MA|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|MCC|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|MEB|0.999298245614035|0.7244255181512312|1.0
+jacobi-2d-imper|MI|0.999298245614035|0.7244255181512312|1.0
+jmeint|AMA|0.9352452452452602|0.7399239629650114|1.0
+jmeint|CE|0.75638638638642|0.660736280770627|0.8087572647194415
+jmeint|DS|0.9352452452452602|0.7399239629650114|1.0
+jmeint|EI|0.9974974974975|0.7691096363842342|0.9620526488831532
+jmeint|GA-best|0.75638638638642|0.660736280770627|0.8087572647194415
+jmeint|GA-median|0.9352452452452602|0.7399239629650114|1.0
+jmeint|GA-worst|0.9352452452452602|0.7399239629650114|1.0
+jmeint|MA|0.9352452452452602|0.7399239629650114|1.0
+jmeint|MCC|0.9974974974975|0.7691096363842342|0.9620526488831532
+jmeint|MEB|0.9352452452452602|0.7399239629650114|1.0
+jmeint|MI|1.0|1.0|0.7399239629650114
+jpeg|AMA|0.9017281606134621|0.792057849502344|0.890780235636096
+jpeg|CE|0.5013101416823942|0.7519516347194697|0.5014218972478357
+jpeg|DS|0.9997771226863946|0.7822670486025353|1.0
+jpeg|EI|0.9997771226863946|0.7822670486025353|1.0
+jpeg|GA-best|0.5013101416823942|0.7519516347194697|0.5014218972478357
+jpeg|GA-median|0.9017281606134621|0.792057849502344|0.890780235636096
+jpeg|GA-worst|0.9017281606134621|0.792057849502344|0.890780235636096
+jpeg|MA|0.9997771226863946|0.7822670486025353|1.0
+jpeg|MCC|0.9017281606134621|0.792057849502344|0.890780235636096
+jpeg|MEB|0.9017281606134621|0.792057849502344|0.890780235636096
+jpeg|MI|1.0|1.0|0.7822670486025353
+k-nucleotide|AMA|1.0|1.0|0.7972327362824617
+k-nucleotide|CE|1.0|1.0|0.7972327362824617
+k-nucleotide|DS|1.0|1.0|0.7972327362824617
+k-nucleotide|EI|1.0|1.0|0.7972327362824617
+k-nucleotide|GA-best|1.0|1.0|0.7972327362824617
+k-nucleotide|GA-median|1.0|1.0|0.7972327362824617
+k-nucleotide|GA-worst|1.0|1.0|0.7972327362824617
+k-nucleotide|MA|1.0|1.0|0.7972327362824617
+k-nucleotide|MCC|1.0|1.0|0.7972327362824617
+k-nucleotide|MEB|1.0|1.0|0.7972327362824617
+k-nucleotide|MI|0.940873698476811|0.7972327362824617|1.0
+mandelbrot|AMA|0.9722131728198474|0.6473392481014426|1.0
+mandelbrot|CE|0.9999786201447206|0.6607440018709934|0.9797126364649649
+mandelbrot|DS|0.9899462082256487|0.6547143746092445|0.9887353527067377
+mandelbrot|EI|1.0|0.6728134497045594|0.962137793746093
+mandelbrot|GA-best|1.0|0.66675206727512|0.9708845009614838
+mandelbrot|GA-median|0.9899462082256487|0.6547143746092445|0.9887353527067377
+mandelbrot|GA-worst|0.9899462082256487|0.6547143746092445|0.9887353527067377
+mandelbrot|MA|0.9899462082256487|0.6547143746092445|0.9887353527067377
+mandelbrot|MCC|0.9999786201447206|0.6607440018709934|0.9797126364649649
+mandelbrot|MEB|0.9999786201447206|0.6607440018709934|0.9797126364649649
+mandelbrot|MI|1.0|0.66675206727512|0.9708845009614838
+mm|AMA|0.9866760569402068|0.6550609472911203|1.0
+mm|CE|0.9866760569402068|0.6550609472911203|1.0
+mm|DS|0.9866760569402068|0.6550609472911203|1.0
+mm|EI|0.9866760569402068|0.6550609472911203|1.0
+mm|GA-best|0.9866760569402068|0.6550609472911203|1.0
+mm|GA-median|0.9866760569402068|0.6550609472911203|1.0
+mm|GA-worst|0.9866760569402068|0.6550609472911203|1.0
+mm|MA|0.9866760569402068|0.6550609472911203|1.0
+mm|MCC|0.9866760569402068|0.6550609472911203|1.0
+mm|MEB|0.9866760569402068|0.6550609472911203|1.0
+mm|MI|1.0|0.6639859952338729|0.986558379232669
+nbody|AMA|0.9887114349024858|0.7868076034268543|1.0
+nbody|CE|0.9887114349024858|0.7868076034268543|1.0
+nbody|DS|0.9939983119455996|0.7940887901634285|0.990830764989044
+nbody|EI|1.0|0.8086687461134744|0.972966504775056
+nbody|GA-best|0.8558612264988936|0.7994371941925946|0.8519576221633421
+nbody|GA-median|0.9887114349024858|0.7868076034268543|1.0
+nbody|GA-worst|0.9887114349024858|0.7868076034268543|1.0
+nbody|MA|0.9887114349024858|0.7868076034268543|1.0
+nbody|MCC|0.8558612264988936|0.7994371941925946|0.8519576221633421
+nbody|MEB|0.8558612264988936|0.7994371941925946|0.8519576221633421
+nbody|MI|0.9939983119455996|0.7940887901634285|0.990830764989044
+pi|AMA|1.0|0.7757065143494415|1.0
+pi|CE|1.0|0.7757065143494415|1.0
+pi|DS|1.0|0.7757065143494415|1.0
+pi|EI|1.0|0.7900714498005363|0.981818181817959
+pi|GA-best|0.96|0.7854084720196228|0.9481413561284561
+pi|GA-median|1.0|0.7757065143494415|1.0
+pi|GA-worst|1.0|0.7757065143494415|1.0
+pi|MA|1.0|0.7757065143494415|1.0
+pi|MCC|0.96|0.7854084720196228|0.9481413561284561
+pi|MEB|0.96|0.7854084720196228|0.9481413561284561
+pi|MI|1.0|0.7900714498005363|0.981818181817959
+qsort|AMA|0.999611304825657|0.6009202734861586|1.0
+qsort|CE|0.9996613048256568|0.6063826317604037|0.9909918952355425
+qsort|DS|0.999611304825657|0.6009202734861586|1.0
+qsort|EI|0.9996613048256568|0.6063826317604037|0.9909918952355425
+qsort|GA-best|0.9996613048256568|0.6063826317604037|0.9909918952355425
+qsort|GA-median|0.999611304825657|0.6009202734861586|1.0
+qsort|GA-worst|0.999611304825657|0.6009202734861586|1.0
+qsort|MA|0.999611304825657|0.6009202734861586|1.0
+qsort|MCC|0.999611304825657|0.6009202734861586|1.0
+qsort|MEB|0.999611304825657|0.6009202734861586|1.0
+qsort|MI|0.9996613048256568|0.6063826317604037|0.9909918952355425
+reg_detect|AMA|1.0|0.8118083122249804|0.9819822327994753
+reg_detect|CE|0.8509690888278388|0.7898938362771524|0.8825228026483597
+reg_detect|DS|1.0|0.80449472382694|0.9909093440062716
+reg_detect|EI|1.0|0.8118083122249804|0.9819822327994753
+reg_detect|GA-best|1.0|0.80449472382694|0.9909093440062716
+reg_detect|GA-median|1.0|0.80449472382694|0.9909093440062716
+reg_detect|GA-worst|1.0|0.80449472382694|0.9909093440062716
+reg_detect|MA|1.0|0.80449472382694|0.9909093440062716
+reg_detect|MCC|1.0|0.80449472382694|0.9909093440062716
+reg_detect|MEB|1.0|0.80449472382694|0.9909093440062716
+reg_detect|MI|0.9642460073260074|0.7971813390438598|1.0
+reverse-complement|AMA|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|CE|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|DS|0.92957903146272|0.7469820636306226|1.0
+reverse-complement|EI|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|GA-best|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|GA-median|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|GA-worst|0.92957903146272|0.7469820636306226|1.0
+reverse-complement|MA|0.92957903146272|0.7469820636306226|1.0
+reverse-complement|MCC|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|MEB|0.99111993775881|0.7820092311231808|0.9552087544513388
+reverse-complement|MI|0.99111993775881|0.7820092311231808|0.9552087544513388
+sobel|AMA|0.9946688023128442|0.8087123140095984|0.9925263788064526
+sobel|CE|1.0|1.0|0.8026683045201335
+sobel|DS|1.0|1.0|0.8026683045201335
+sobel|EI|0.9403980643134298|0.8026683045201335|1.0
+sobel|GA-best|1.0|1.0|0.8026683045201335
+sobel|GA-median|1.0|1.0|0.8026683045201335
+sobel|GA-worst|0.9946688023128442|0.8087123140095984|0.9925263788064526
+sobel|MA|0.9946688023128442|0.8087123140095984|0.9925263788064526
+sobel|MCC|1.0|1.0|0.8026683045201335
+sobel|MEB|1.0|1.0|0.8026683045201335
+sobel|MI|0.9403980643134298|0.8026683045201335|1.0
+spectralnorm|AMA|0.98|0.7568608214219941|0.9563397201867122
+spectralnorm|CE|1.0|0.7545468541574207|0.959272525212842
+spectralnorm|DS|1.0|0.7685100400070425|0.9418433442617901
+spectralnorm|EI|1.0|0.7615333991029516|0.9504718598443801
+spectralnorm|GA-best|1.0|0.7545468541574207|0.959272525212842
+spectralnorm|GA-median|0.98|0.7568608214219941|0.9563397201867122
+spectralnorm|GA-worst|1.0|0.7685100400070425|0.9418433442617901
+spectralnorm|MA|1.0|0.7685100400070425|0.9418433442617901
+spectralnorm|MCC|1.0|0.7545468541574207|0.959272525212842
+spectralnorm|MEB|1.0|0.7545468541574207|0.959272525212842
+spectralnorm|MI|1.0|0.7615333991029516|0.9504718598443801
+
+
+
+###############################
+oracle:
+	avg quality:0.9670720177422977
+	avg energy:0.7439607588242788
+
+SmartApprox:
+	avg quality:0.9278875419761171
+	avg energy:0.7408009821351504
+	avg score quality:0.9386993694760039
+	avg score energy:0.9733858952749651
+	avg score:0.9121344975255401
